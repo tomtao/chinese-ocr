@@ -5,4 +5,4 @@ pip install Cython opencv-python -i https://pypi.tuna.tsinghua.edu.cn/simple/
 pip install matplotlib -i https://pypi.tuna.tsinghua.edu.cn/simple/ 
 cd ./ctpn/lib
 python setup.py build
-
+make -j8

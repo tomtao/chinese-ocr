@@ -11,7 +11,7 @@ if __name__ =='__main__':
     im = Image.open(paths[1])
     img = np.array(im.convert('RGB'))
     t = time.time()
-    result,img = model.model(img,model='keras')
+    result,img,angle = model.model(img,model='keras')
     print "It takes time:{}s".format(time.time()-t)
     print "---------------------------------------"
     #Image.fromarray(img).save('/tmp/tmp.jpg')

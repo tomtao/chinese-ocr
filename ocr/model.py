@@ -76,7 +76,7 @@ height = 32
 nclass = len(characters)
 if os.path.exists(modelPath):
     model,basemodel = get_model(height,nclass+1)
-    basemodel = basemodel.load_weights(modelPath)
+    basemodel.load_weights(modelPath)
     
 
 def predict(im):

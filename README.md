@@ -8,7 +8,10 @@
 
 ## 环境部署
 ``` Bash
+##GPU环境
 sh setup.sh
+##CPU环境
+sh setup-cpu.sh
 ```
 
 # 模型训练

@@ -25,7 +25,7 @@ cd train & sh train-keras.sh
 cd train & sh train-pytorch.sh   
 ```
 # 文字方向检测
-基于图像分类，在VGG16模型的基础，训练0、90、180、270度检测的分类模型，详细代码参考angle/predict.py文件，训练图片8000张，准确率88.23%。
+基于图像分类，在VGG16模型的基础上，训练0、90、180、270度检测的分类模型，详细代码参考angle/predict.py文件，训练图片8000张，准确率88.23%。
 
 # 文字检测
 [文本检测参考](https://github.com/eragonruan/text-detection-ctpn)(https://github.com/eragonruan/text-detection-ctpn)   
